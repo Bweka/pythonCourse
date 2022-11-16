@@ -6,14 +6,17 @@ def produit(pr,dx):
    dx=int(dx)
    p=pr*dx
    return(p)
-   """
+   
 def Produit():
     a=int(input("entrer un nombre a: "))
     b=int(input("entrer un nombre b: "))
     c=a*b
     print (str(c))
-
-        
+"""
+class car:
+    def __init__(self,brand,model):
+        self.brand=brand
+        self.model=model       
 
 
 
@@ -69,4 +72,10 @@ if __name__=="__main__" :
     c = str(c)
     print("le produit de a et b est:" + c)
     """
-    Produit()
+    #Produit()
+    #POO 
+c=car("TOYOTA","TX")
+print(c)
+        
+
+ 
