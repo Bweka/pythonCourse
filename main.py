@@ -1,5 +1,12 @@
-def show_student(first_name,last_name):
-    print("hello, " +first_name +" "+ last_name)
+#def show_student(first_name,last_name):
+  #  print("hello, " +first_name +" "+ last_name)
+def produit(pr,dx):
+   pr=int(pr)
+   dx=int(dx)
+   p=pr*dx
+   return(p)
+      
+        
 
 
 
@@ -48,4 +55,9 @@ if __name__=="__main__" :
     for s in student.keys(): 
      print(s)
      """
-    show_student("bweka","usela")
+    a=input("entrer la premiere valeur")
+    b=input("entrer la deuxieme valeur")
+    c = produit(a,b)
+    c = str(c)
+    print("le produit de a et b est:" + c)
+    
