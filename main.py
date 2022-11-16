@@ -17,8 +17,12 @@ if __name__=="__main__" :
 
     fruits=["ananas","mangue","avocat"]
     for f in fruits :
-     """
+     
      
     fruits=("ananas","mangue","avocat")
+    for f in fruits :
+        print(f)
+        """
+    fruits={"ananas","mangue","avocat"}
     for f in fruits :
         print(f)
