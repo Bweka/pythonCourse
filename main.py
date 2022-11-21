@@ -2,6 +2,8 @@
 def show_student(first_name,last_name):
     print("hello, " +first_name +" "+ last_name)
 """
+
+bweka
 def produit(pr,dx):
    pr=int(pr)
    dx=int(dx)
