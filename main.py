@@ -22,6 +22,10 @@ class car:
 
     def __str__(self):
      return f"{self.brand} ({self.model})"
+
+       
+    def __str__(self):
+     return f"{self.brand} ({self.model})"
              
 
 
