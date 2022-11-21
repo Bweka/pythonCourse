@@ -1,5 +1,6 @@
-#def show_student(first_name,last_name):
-  #  print("hello, " +first_name +" "+ last_name)
+ 
+def show_student(first_name,last_name):
+    print("hello, " +first_name +" "+ last_name)
 """
 def produit(pr,dx):
    pr=int(pr)
@@ -12,16 +13,22 @@ def Produit():
     b=int(input("entrer un nombre b: "))
     c=a*b
     print (str(c))
+    lp;l;;;
 """
 class car:
-    def __init__(self,brand,model):
+    def __init__(self, brand, model):
         self.brand=brand
-        self.model=model       
+        self.model=model  
+
+    def __str__(self):
+     return f"{self.brand} ({self.model})"
+             
 
 
 
 
 if __name__=="__main__" : 
+    show_student("danny","vincent")
     pass
     """
     a=34
@@ -76,6 +83,7 @@ if __name__=="__main__" :
     #POO 
 c=car("TOYOTA","TX")
 print(c)
-        
 
- 
+
+
+    
